@@ -1,1 +1,1 @@
-# functionup_project1
+This is a mini blog site Project 
