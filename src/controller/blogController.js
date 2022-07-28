@@ -45,7 +45,7 @@ const createBlogs = async (req, res) => {
         }
 
         const result = await blogsModel.create(data)
-        res.status(200).send({ staus: true, msg: result })
+        res.status(201).send({ staus: true, msg: result })
     }
     catch (err) {
         res.status(500).send({ status: false, msg: err.message })
